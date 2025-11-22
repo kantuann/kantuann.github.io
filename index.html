@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tienda Minimalista</title>
+    <title>Mi Tienda Minimalista</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,77 +12,163 @@
             padding: 0;
             background: #f5f5f5;
             color: #222;
-            <nav class="navbar">
-    <div class="nav-logo">MiTienda</div>
-    <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="#productos">Productos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
-</nav>
-
         }
+
+        /* NAVBAR PROFESIONAL */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 600;
+            transition: .3s;
+        }
+
+        .nav-links a:hover {
+            color: #000;
+        }
+
+        /* HEADER HERO */
         header {
             background: #111;
             color: #fff;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        /* CONTENEDOR */
         .container {
-            max-width: 900px;
+            max-width: 1100px;
             margin: 40px auto;
             padding: 20px;
         }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        /* GRID DE PRODUCTOS */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* TARJETAS DE PRODUCTO PREMIUM */
         .product {
             background: #fff;
             padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            transition: transform .2s ease, box-shadow .3s ease;
         }
+
+        .product:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+        }
+
         .product img {
             width: 100%;
             border-radius: 12px;
+            height: 250px;
+            object-fit: cover;
         }
+
         .product h2 {
             margin: 10px 0;
         }
+
         .price {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            font-weight: bold;
             margin: 8px 0;
         }
+
+        /* BOTÓN PREMIUM */
         .buy-btn {
             display: inline-block;
-            padding: 12px 20px;
-            background: #111;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #111, #333);
             color: #fff;
-            border-radius: 8px;
+            border-radius: 10px;
             text-decoration: none;
             font-weight: bold;
             transition: 0.3s;
+            font-size: 1rem;
         }
+
         .buy-btn:hover {
-            background: #333;
+            background: linear-gradient(135deg, #333, #555);
         }
     </style>
 </head>
+
 <body>
-    <header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-logo">MiTienda</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header id="inicio">
         <h1>Mi Tienda Minimalista</h1>
         <p>Productos seleccionados especialmente para ti</p>
     </header>
 
-    <div class="container">
-        <!-- PRODUCTO 1 -->
-        <div class="product">
-            <img src="https://via.placeholder.com/900x600" alt="Producto 1">
-            <h2>Nombre del Producto</h2>
-            <p class="price">€19.99</p>
-            <p>Descripción corta del producto. Ideal para captar atención y convertir ventas.</p>
-            <a class="buy-btn" href="AQUI_PONES_TU_ENLACE_DE_STRIPE" target="_blank">Comprar ahora</a>
-        </div>
+    <!-- PRODUCTOS -->
+    <div class="container" id="productos">
+        <h2 class="section-title">Productos Destacados</h2>
 
-        <!-- Copia y pega más bloques como este para más productos -->
+        <div class="product-grid">
+
+            <!-- PRODUCTO 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/900x600" alt="Producto 1">
+                <h2>Nombre del Producto</h2>
+                <p class="price">€19.99</p>
+                <p>Descripción corta del producto. Ideal para captar atención y convertir ventas.</p>
+                <a class="buy-btn" href="AQUI_PONES_TU_ENLACE_DE_STRIPE" target="_blank">Comprar ahora</a>
+            </div>
+
+        </div>
     </div>
+
 </body>
 </html>
+
