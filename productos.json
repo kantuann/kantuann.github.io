@@ -9,11 +9,11 @@
     },
 
     {
-      "nombre": "Gafas Modernas",
-      "precio": "€24.99",
-      "descripcion": "Diseño minimalista y materiales de alta calidad.",
-      "imagen": "https://via.placeholder.com/900x600",
-      "pago": "AQUI_TU_ENLACE_STRIPE"
+      "nombre": "Auriculares M47",
+      "precio": "19,99",
+      "descripcion": "Auriculares abiertos Bluetooth inalámbricos Air Bone Conduction Headphones Ear Clip Hueso Auriculares Deportivos Auriculares Aire Huesos Auriculares Inalámbricos",
+      "imagen": "https://raw.githubusercontent.com/kantuann/kantuann.github.io/refs/heads/main/Img/IMG_2127.jpeg",
+      "pago": "https://buy.stripe.com/cNiaEZd5peRddzF8605wI02"
     }
   ]
 }
