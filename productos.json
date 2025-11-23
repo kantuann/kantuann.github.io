@@ -1,19 +1,17 @@
 {
   "productos": [
     {
-      "nombre": "Reloj",
-      "precio": "€39,99",
-      "descripcion": "Reloj elegante resistente al agua.",
-      "imagen": "https://raw.githubusercontent.com/kantuann/kantuann.github.io/refs/heads/main/Img/IMG_2126.jpeg",
-      "pago": "https://buy.stripe.com/aFa8wR5CXcJ53Z58605wI01"
-    },
-
-    {
-      "nombre": "Auriculares M47",
-      "precio": "19,99",
-      "descripcion": "Auriculares abiertos Bluetooth inalámbricos Air Bone Conduction Headphones Ear Clip Hueso Auriculares Deportivos Auriculares Aire Huesos Auriculares Inalámbricos",
-      "imagen": "https://raw.githubusercontent.com/kantuann/kantuann.github.io/refs/heads/main/Img/IMG_2127.jpeg",
-      "pago": "https://buy.stripe.com/aFaeVfc1l24r9jpfys5wI03"
+      "id": "1",
+      "nombre": "Reloj Premium",
+      "precio": "39.99",
+      "moneda": "€",
+      "descripcion_corta": "Reloj elegante resistente al agua.",
+      "descripcion_larga": "Reloj premium con caja de acero, correa intercambiable y resistencia 5ATM.",
+      "imagenes": [
+        "https://via.placeholder.com/1200x900?text=Reloj+1",
+        "https://via.placeholder.com/1200x900?text=Reloj+2"
+      ],
+      "pago": "AQUI_TU_STRIPE_LINK"
     }
   ]
 }
