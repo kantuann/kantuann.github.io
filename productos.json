@@ -5,7 +5,7 @@
       "precio": "€39.99",
       "descripcion": "Reloj elegante resistente al agua.",
       "imagen": "https://via.placeholder.com/900x600",
-      "pago": "AQUI_TU_ENLACE_STRIPE"
+      "pago": "https://buy.stripe.com/cNi28t5CXgZl1QXae85wI00"
     },
 
     {
