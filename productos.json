@@ -2,7 +2,7 @@
   "productos": [
     {
       "nombre": "Reloj",
-      "precio": "€0,01",
+      "precio": "€39,99",
       "descripcion": "Reloj elegante resistente al agua.",
       "imagen": "https://raw.githubusercontent.com/kantuann/kantuann.github.io/refs/heads/main/Img/IMG_2126.jpeg",
       "pago": "https://buy.stripe.com/aFa8wR5CXcJ53Z58605wI01"
