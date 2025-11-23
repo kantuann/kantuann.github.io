@@ -10,7 +10,7 @@ body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:#f5f5f5;co
 .nav-links a:hover{text-decoration:underline}
 
 /* HERO */
-.hero{background:#111;color:#62ded1;padding:44px 20px;text-align:center}
+.hero{background:#111;color:#f5f5f5;padding:44px 20px;text-align:center}
 .hero h1{font-size:2.4rem;margin:0 0 8px}
 
 /* CONTAINER */
