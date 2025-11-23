@@ -8,8 +8,7 @@
       "descripcion_corta": "Reloj elegante resistente al agua.",
       "descripcion_larga": "Reloj premium con caja de acero, correa intercambiable y resistencia 5ATM.",
       "imagenes": [
-        "https://via.placeholder.com/1200x900?text=Reloj+1",
-        "https://via.placeholder.com/1200x900?text=Reloj+2"
+        "Img/IMG_2126.jpeg"
       ],
       "pago": "AQUI_TU_STRIPE_LINK"
     }
