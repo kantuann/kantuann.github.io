@@ -1,9 +1,9 @@
 /* Reset ligero */
 *{box-sizing:border-box}
-body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:#f7bcf6;color:#222;line-height:1.5}
+body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:#f5f5f5;color:#222;line-height:1.5}
 
 /* NAV */
-.navbar{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;background:#f7bcf6;box-shadow:0 4px 12px rgba(0,0,0,0.06);position:sticky;top:0;z-index:100}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;background:#f5f5f5;box-shadow:0 4px 12px rgba(0,0,0,0.06);position:sticky;top:0;z-index:100}
 .nav-logo{font-weight:700;font-size:1.2rem}
 .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0}
 .nav-links a{text-decoration:none;color:#222;font-weight:600}
