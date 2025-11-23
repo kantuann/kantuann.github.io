@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "nombre": "Reloj Premium",
+      "nombre": "Reloj",
       "precio": "€39.99",
       "descripcion": "Reloj elegante resistente al agua.",
       "imagen": "https://raw.githubusercontent.com/kantuann/kantuann.github.io/refs/heads/main/Img/IMG_2126.jpeg",
