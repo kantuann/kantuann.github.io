@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Tienda Minimalista</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <nav class="navbar">
+    <div class="nav-logo">MiTienda</div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-logo">Orbis</div>
-        <ul class="nav-links">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+  <header id="inicio" class="hero">
+    <h1>Mi Tienda Minimalista</h1>
+    <p>Productos seleccionados especialmente para ti</p>
+  </header>
 
-    <!-- HERO -->
-    <header id="inicio">
-        <h1>Bienvenido a Orbis</h1>
-        <p>Productos seleccionados especialmente para ti</p>
-    </header>
-
-    <!-- PRODUCTOS -->
-    <div class="container" id="productos">
-        <h2 class="section-title">Productos Destacados</h2>
-
-        <!-- Aquí se cargarán los productos automáticamente -->
-        <div class="product-grid" id="product-list"></div>
+  <main class="container">
+    <h2 class="section-title" id="productos">Productos Destacados</h2>
+    <div id="product-list" class="product-grid">
+      <!-- Productos se insertan aquí por productos.js -->
     </div>
+  </main>
 
-    <script src="productos.js"></script>
+  <footer id="contacto" class="footer">
+    <div class="container">
+      <p>Contacto: tu-email@ejemplo.com • Envíos y devoluciones</p>
+    </div>
+  </footer>
+
+  <script src="productos.js"></script>
 </body>
 </html>
