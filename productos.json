@@ -2,15 +2,15 @@
   "productos": [
     {
       "id": "1",
-      "nombre": "Reloj Premium",
-      "precio": "39.99",
+      "nombre": "Plataforma de carga inhalambrica MagSafe",
+      "precio": "14,99",
       "moneda": "€",
-      "descripcion_corta": "Reloj elegante resistente al agua.",
-      "descripcion_larga": "Reloj premium con caja de acero, correa intercambiable y resistencia 5ATM.",
+      "descripcion_corta": "Plataforma de carga inhalambrica.",
+      "descripcion_larga": "Plataforma de carga inhalambrica negra co. canle usb tipo c de 100w de velocidad de carga.",
       "imagenes": [
         "Img/IMG_2126.jpeg"
       ],
-      "pago": "AQUI_TU_STRIPE_LINK"
+      "pago": "https://buy.stripe.com/8x214pd5p8sP2V15XS5wI04"
     }
   ]
 }
