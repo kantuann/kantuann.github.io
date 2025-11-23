@@ -1,0 +1,19 @@
+{
+  "productos": [
+    {
+      "nombre": "Reloj Premium",
+      "precio": "€39.99",
+      "descripcion": "Reloj elegante resistente al agua.",
+      "imagen": "https://via.placeholder.com/900x600",
+      "pago": "AQUI_TU_ENLACE_STRIPE"
+    },
+
+    {
+      "nombre": "Gafas Modernas",
+      "precio": "€24.99",
+      "descripcion": "Diseño minimalista y materiales de alta calidad.",
+      "imagen": "https://via.placeholder.com/900x600",
+      "pago": "AQUI_TU_ENLACE_STRIPE"
+    }
+  ]
+}
