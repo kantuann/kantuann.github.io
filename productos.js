@@ -1,19 +1,26 @@
+// Cargar productos en la página principal
 fetch("productos.json")
-    .then(response => response.json())
-    .then(data => {
-        const contenedor = document.getElementById("product-list");
+  .then(r => r.json())
+  .then(data => {
+    const list = document.getElementById("product-list");
+    list.innerHTML = "";
 
-        data.productos.forEach(producto => {
-            const item = `
-                <div class="product">
-                    <img src="${producto.imagen}" alt="${producto.nombre}">
-                    <h2>${producto.nombre}</h2>
-                    <p class="price">${producto.precio}</p>
-                    <p>${producto.descripcion}</p>
-                    <a class="buy-btn" href="${producto.pago}" target="_blank">Comprar ahora</a>
-                </div>
-            `;
-            contenedor.innerHTML += item;
-        });
-    })
-    .catch(error => console.error("Error cargando productos:", error));
+    data.productos.forEach(p => {
+      list.innerHTML += `
+        <div class="product">
+          <a href="producto.html?id=${p.id}">
+            <img src="${p.imagenes[0]}" alt="${p.nombre}">
+          </a>
+
+          <h2>${p.nombre}</h2>
+          <p class="price">${p.moneda}${p.precio}</p>
+          <p class="muted">${p.descripcion_corta}</p>
+
+          <div class="card-actions">
+            <a class="btn-secondary" href="producto.html?id=${p.id}">Ver producto</a>
+            <a class="buy-btn" href="${p.pago}" target="_blank">Comprar</a>
+          </div>
+        </div>
+      `;
+    });
+  });
