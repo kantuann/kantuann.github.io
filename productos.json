@@ -2,11 +2,11 @@
   "productos": [
     {
       "id": "1",
-      "nombre": "Plataforma de carga inhalambrica MagSafe",
+      "nombre": "Organizador",
       "precio": "14,99",
       "moneda": "€",
-      "descripcion_corta": "Plataforma de carga inhalambrica.",
-      "descripcion_larga": "Plataforma de carga inhalambrica negra con cable usb tipo c de 100w de velocidad de carga.",
+      "descripcion_corta": "Organizador de archivos",
+      "descripcion_larga": "Programa de organizacion de archivos de forma rapida",
       "imagenes": [
         "Img/IMG_2131.jpeg"
       ],
