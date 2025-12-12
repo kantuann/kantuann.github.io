@@ -8,7 +8,7 @@
       "descripcion_corta": "Organizador de archivos",
       "descripcion_larga": "Programa de organizacion de archivos de forma rapida, al iniciarse abrira una ventana la cual te permitira seleccionar una carpeta, la que tu quieras, y una vez pulses confirmar empezara a claseficar todos los archivos en un solo click",
       "imagenes": [
-        "Img/IMG_2205.png"
+        "Img/AD2B41B1-B00A-4ED2-8CD6-6ADC3428FE0A.png"
       ],
       "pago": "https://buy.stripe.com/00wbJ31mH5gDbrxdqk5wI09"
     },
@@ -20,7 +20,7 @@
       "descripcion_corta": "Scraper para amazon",
       "descripcion_larga": "Programa de scrapeo para amazon, el programa consigue sacar precio y nombre de los dieferentes productos indicados y guarda un registro en un excel que el propio archivo genera automaticamente",
       "imagenes": [
-        "Img/IMG_2205.png"
+        "Img/scraper/Captura de pantalla 2025-12-04 134534.png, Img/scraper/Captura de pantalla 2025-12-04 135704.png"
       ],
       "pago": "https://buy.stripe.com/00wbJ31mH5gDbrxdqk5wI09"
     }
