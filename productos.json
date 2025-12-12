@@ -11,6 +11,18 @@
         "Img/IMG_2205.png"
       ],
       "pago": "https://buy.stripe.com/00wbJ31mH5gDbrxdqk5wI09"
+    },
+    {
+     "id": "2",
+      "nombre": "Amazon Scraper",
+      "precio": "9,99",
+      "moneda": "€",
+      "descripcion_corta": "Scraper para amazon",
+      "descripcion_larga": "Programa de scrapeo para amazon, el programa consigue sacar precio y nombre de los dieferentes productos indicados y guarda un registro en un excel que el propio archivo genera automaticamente",
+      "imagenes": [
+        "Img/IMG_2205.png"
+      ],
+      "pago": "https://buy.stripe.com/00wbJ31mH5gDbrxdqk5wI09"
     }
   ]
 }
