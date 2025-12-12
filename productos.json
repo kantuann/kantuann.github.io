@@ -6,9 +6,7 @@
       "precio": "9,99",
       "moneda": "€",
       "descripcion_corta": "Organizador de archivos",
-      "descripcion_larga": "Programa de organizacion de archivos de forma rapida,
-    al iniciarse abrira una interfaz que le permitira seleccionar la carpeta 
-    y asi clasificar todos los archivos en un click",
+      "descripcion_larga": "Programa de organizacion de archivos de forma rapida, al iniciarse abrira una ventana la cual te permitira seleccionar una carpeta, la que tu quieras, y una vez pulses confirmar empezara a claseficar todos los archivos en un solo click",
       "imagenes": [
         "Img/IMG_2205.png"
       ],
